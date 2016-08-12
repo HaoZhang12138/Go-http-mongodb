@@ -1,7 +1,6 @@
 package httpfunction
 
 import "github.com/bitly/go-simplejson"
-
 import (
 	"net/http"
 	"dao"
@@ -30,7 +29,7 @@ type uploadfile_tmp struct {
 	Files *simplejson.Json `json:"files"`
 }
 
-const UPLOAD_DIR = "/home/zh/GoPro/firstRedis/html/uploads"
+const UPLOAD_DIR = "/home/zh/GoPro/Go-http-mongodb/html/uploads"
 const PreWebPath = "/uploads/"
 const URLTableName = "tableName"
 //var mutexlock sync.Mutex

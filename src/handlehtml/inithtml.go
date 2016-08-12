@@ -7,7 +7,7 @@ import (
 	"html/template"
 )
 
-const HTML_DIR = "/home/zh/GoPro/firstRedis/html"
+const HTML_DIR = "/home/zh/GoPro/Go-http-mongodb/html"
 
 var Templates = make(map[string]*template.Template)
 func Inithtml() {
